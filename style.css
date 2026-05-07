@@ -1522,3 +1522,229 @@ height:250px;
     padding: 16px;
   }
 }
+
+
+
+/* ===== CTA Banner Section ===== */
+
+.demo-banner {
+  width: 100%;
+  padding: 30px 20px;
+  background: #f4f4f4;
+  box-sizing: border-box;
+}
+
+.demo-container {
+  max-width: 1200px;
+  margin: auto;
+  background: linear-gradient(90deg, #02142f 0%, #062d66 100%);
+  border-radius: 18px;
+  padding: 35px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* ===== Left Content ===== */
+
+.demo-left {
+  flex: 1;
+  color: #fff;
+}
+
+.demo-left h2 {
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.demo-left h2 span {
+  color: #ff8a00;
+}
+
+.demo-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.demo-features li {
+  font-size: 17px;
+  margin-bottom: 14px;
+  position: relative;
+  padding-left: 32px;
+  color: #e6e6e6;
+}
+
+.demo-features li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ff8a00;
+  font-weight: bold;
+}
+
+/* ===== Center Image ===== */
+
+.demo-center {
+  flex: 0.8;
+  text-align: center;
+}
+
+.demo-center img {
+  width: 100%;
+  max-width: 260px;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Floating animation */
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* ===== Right Content ===== */
+
+.demo-right {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.demo-right h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.demo-right p {
+  font-size: 15px;
+  color: #d8d8d8;
+  margin-bottom: 25px;
+}
+
+.demo-btn,
+.whatsapp-btn {
+  display: inline-block;
+  width: 100%;
+  max-width: 280px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Orange Button */
+
+.demo-btn {
+  background: #ff7a00;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.demo-btn:hover {
+  background: #ff9100;
+  transform: translateY(-2px);
+}
+
+/* OR Text */
+
+.or-text {
+  margin: 12px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* WhatsApp Button */
+
+.whatsapp-btn {
+  border: 2px solid #00c853;
+  color: #fff;
+  background: transparent;
+}
+
+.whatsapp-btn:hover {
+  background: #00c853;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 992px) {
+
+  .demo-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 25px;
+  }
+
+  .demo-left,
+  .demo-right,
+  .demo-center {
+    width: 100%;
+  }
+
+  .demo-left h2 {
+    font-size: 34px;
+  }
+
+  .demo-right h3 {
+    font-size: 26px;
+  }
+
+  .demo-features li {
+    text-align: left;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .demo-banner {
+    padding: 15px;
+  }
+
+  .demo-container {
+    padding: 30px 20px;
+    border-radius: 14px;
+  }
+
+  .demo-left h2 {
+    font-size: 28px;
+  }
+
+  .demo-right h3 {
+    font-size: 22px;
+  }
+
+  .demo-features li {
+    font-size: 15px;
+  }
+
+  .demo-btn,
+  .whatsapp-btn {
+    font-size: 15px;
+    padding: 14px 16px;
+  }
+
+  .demo-center img {
+    max-width: 200px;
+  }
+}
