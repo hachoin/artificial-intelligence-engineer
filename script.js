@@ -32,10 +32,10 @@ answer.style.display=answer.style.display==="block"?"none":"block";
 });
 
 const aiCoursesData = [
-    {title:"Artificial Intelligence Course", level:"Beginner-Advance", Classes:" 40 Days", price:"$400", image:"artificial-intelligence-course.png"},
-  {title:"Machine Learning AI Course", level:"Beginner-Advance", Classes:"48 Days", price:"$500", image:"machine-learning-course.png"},
-  {title:"AI Healthcare Course", level:"Beginner-Advance", Classes:"45 days", price:"$400", image:"ai-healthcare-course.png"},
-  {title:"ChatGpt Course", level:"Beginner-Advance", Classes:"50 Days", price:"$400", image:"chatgpt-course.png"},
+    {title:"Artificial Intelligence Course", level:"Beginner-Advance", classes:"40 days", price:"$400", image:"artificial-intelligence-course.png"},
+  {title:"Machine Learning AI Course", level:"Beginner-Advance", classes:"48 days", price:"$500", image:"machine-learning-course.png"},
+  {title:"AI Healthcare Course", level:"Beginner-Advance", classes:"45 days", price:"$400", image:"ai-healthcare-course.png"},
+  {title:"ChatGpt Course", level:"Beginner-Advance", classes:"50 days", price:"$400", image:"chatgpt-course.png"},
   {title:"MLOps Course", level:"Beginner-Advance", classes:"45 days", price:"$400", image:"mlops-course.png"},
   {title:"NLP Course", level:"Beginner-Advance", classes:"50 days", price:"$400", image:"nature-language-processing.png"},
   {title:"Agentic AI Course", level:"Beginner-Advance", classes:"45 days", price:"$500", image:"agentic-ai-course.png"},
