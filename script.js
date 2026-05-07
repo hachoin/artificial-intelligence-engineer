@@ -4,7 +4,7 @@ const dsCourses=document.getElementById("dsCourses");
 for(let i=1;i<=10;i++){
 aiCourses.innerHTML+=`<div class="course-card">
 <h3>AI Course ${i}</h3>
-<p>classes: 6 Months</p>
+
 <p>Students: $1,499</p>
 </div>`;
 }
@@ -32,16 +32,16 @@ answer.style.display=answer.style.display==="block"?"none":"block";
 });
 
 const aiCoursesData = [
-    {title:"Artificial Intelligence Course", level:"Beginner-Advance", classes:"40 days", price:"$400", image:"artificial-intelligence-course.png"},
-  {title:"Machine Learning AI Course", level:"Beginner-Advance", classes:"48 days", price:"$500", image:"machine-learning-course.png"},
-  {title:"AI Healthcare Course", level:"Beginner-Advance", classes:"45 days", price:"$400", image:"ai-healthcare-course.png"},
-  {title:"ChatGpt Course", level:"Beginner-Advance", classes:"50 days", price:"$400", image:"chatgpt-course.png"},
-  {title:"MLOps Course", level:"Beginner-Advance", classes:"45 days", price:"$400", image:"mlops-course.png"},
-  {title:"NLP Course", level:"Beginner-Advance", classes:"50 days", price:"$400", image:"nature-language-processing.png"},
-  {title:"Agentic AI Course", level:"Beginner-Advance", classes:"45 days", price:"$500", image:"agentic-ai-course.png"},
-  {title:"Generative AI Course", level:"Beginner-Advance", classes:"30 days", price:"$360", image:"generative-ai-course.png"},
-  {title:"GenAI with Python", level:"Beginner-Advance", classes:"45 days", price:"$450", image:"GenAI-with-Python-course.png"},
-  {title:"Large Language Module", level:"Beginner-Advance", classes:"50 days", price:"$360", image:"llm-course.png"}
+    {title:"Artificial Intelligence Course", level:"Beginner-Advance", price:"$400", image:"artificial-intelligence-course.png"},
+  {title:"Machine Learning AI Course", level:"Beginner-Advance", price:"$500", image:"machine-learning-course.png"},
+  {title:"AI Healthcare Course", level:"Beginner-Advance", price:"$400", image:"ai-healthcare-course.png"},
+  {title:"ChatGpt Course", level:"Beginner-Advance", price:"$400", image:"chatgpt-course.png"},
+  {title:"MLOps Course", level:"Beginner-Advance", price:"$400", image:"mlops-course.png"},
+  {title:"NLP Course", level:"Beginner-Advance", price:"$400", image:"nature-language-processing.png"},
+  {title:"Agentic AI Course", level:"Beginner-Advance", price:"$500", image:"agentic-ai-course.png"},
+  {title:"Generative AI Course", level:"Beginner-Advance", price:"$360", image:"generative-ai-course.png"},
+  {title:"GenAI with Python", level:"Beginner-Advance", price:"$450", image:"GenAI-with-Python-course.png"},
+  {title:"Large Language Module", level:"Beginner-Advance", price:"$360", image:"llm-course.png"}
 
 ];
 
