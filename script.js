@@ -204,7 +204,7 @@ function createCard(course){
       <span class="badge ${levelClass}">${course.level}</span>
       <h3>${course.title}</h3>
       <div class="course-meta">
-        <span>${course.duration}</span>
+        <span><i class="fa-regular fa-clock"></i> ${course.duration}</span>
         <span class="price">${course.price}</span>
       </div>
       <a href="#faq" class="btn">Start now – get 10% off!</a>
